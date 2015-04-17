@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a9a9a9" >
+    
+    <LinearLayout
+	    android:id="@+id/monitoring"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="2dp"
+	    android:layout_weight="1"
+	    android:background="#dcdcdc" >
+	
+	    <ImageView
+	        android:id="@+id/imageView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="15dp"
+	        android:src="@drawable/test2" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="#dcdcdc"
+	        android:gravity="center"
+	        android:text="@string/monitoring" />
+	
+	</LinearLayout>
+    
+    <LinearLayout
+	    android:id="@+id/network"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="2dp"
+	    android:layout_weight="1"
+	    android:background="#dcdcdc" >
+	
+	    <ImageView
+	        android:id="@+id/imageView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="15dp"
+	        android:src="@drawable/test3" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="#dcdcdc"
+	        android:gravity="center"
+	        android:text="@string/network" />
+	
+	</LinearLayout>
+
+    <LinearLayout
+	    android:id="@+id/electric"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="2dp"
+	    android:layout_weight="1"
+	    android:background="#dcdcdc" >
+	
+	    <ImageView
+	        android:id="@+id/imageView3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="15dp"
+	        android:src="@drawable/test6" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="#dcdcdc"
+	        android:gravity="center"
+	        android:text="@string/electric" />
+	
+	</LinearLayout>
+	
+    <LinearLayout
+	    android:id="@+id/spiteapp"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="2dp"
+	    android:layout_weight="1"
+	    android:background="#dcdcdc" >
+	
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="15dp"
+	        android:src="@drawable/test7" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="#dcdcdc"
+	        android:gravity="center"
+	        android:text="@string/spiteapp" />
+	
+	</LinearLayout>
+	
+    <LinearLayout
+        android:id="@+id/to_manage_main"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_margin="2dp"
+	    android:layout_weight="1"
+	    android:background="#dcdcdc" >
+	
+	    <ImageView
+	        android:id="@+id/imageView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_margin="15dp"
+	        android:src="@drawable/test9" />
+	
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:background="#dcdcdc"
+	        android:gravity="center"
+	        android:text="@string/manage_main_str" />
+	
+	</LinearLayout>
+    
+</LinearLayout>

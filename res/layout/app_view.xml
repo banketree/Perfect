@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:orientation="horizontal"
+    android:id="@+id/delete">
+
+    <ImageView
+        android:id="@+id/iconappview"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:background="@drawable/apply"/>
+
+
+
+ 
+            <TextView
+        android:id="@+id/appname"
+        android:layout_width="150dip"
+        android:layout_height="wrap_content" />
+
+
+
+
+   
+
+        <Button
+            android:id="@+id/uploadbut"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="卸载" />
+
+</LinearLayout>

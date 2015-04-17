@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Monitoring"
+    android:background="@drawable/backgroundapp" >
+
+    <Button
+        android:id="@+id/msgbut1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:text="发送短信" />
+
+    <Button
+        android:id="@+id/opennet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/msgbut1"
+        android:layout_below="@+id/msgbut1"
+        android:text="开启移动网络" />
+
+    <Button
+        android:id="@+id/openwifi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/opennet"
+        android:layout_below="@+id/opennet"
+        android:text="开启WIFI" />
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/openwifi"
+        android:layout_below="@+id/openwifi"
+        android:text="通话监听" />
+
+    <Button
+        android:id="@+id/getpho"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/phone"
+        android:layout_below="@+id/phone"
+        android:text="拨打、挂断电话" />
+
+    <Button
+        android:id="@+id/openbule"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getpho"
+        android:layout_below="@+id/getpho"
+        android:text="开启蓝牙" />
+
+    <Button
+        android:id="@+id/state"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/openwifi"
+        android:layout_below="@+id/openbule"
+        android:text="开机启动" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/msgbut1"
+        android:layout_alignParentTop="true"
+        android:text="应用程序将会有以下操作，影响手机安全"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+
+</RelativeLayout>

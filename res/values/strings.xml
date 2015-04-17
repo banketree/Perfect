@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Perfect</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="myname">mobile safe</string>
+    <string name="authormanage">权限查看</string>
+    <string name="monitoring">安全相关权限</string>
+    <string name="network">隐私权限</string>
+    <string name="netcontrol">联网控制</string>
+    <string name="rammanager">内存管理</string>
+    <string name="electric">电量监控</string>
+    <string name="spiteapp">恶意软件</string>
+    <string name="unloadapp">软件卸载</string>
+    <string name="complaint">软件投诉</string>
+    <string name="title_activity_author_manage">权限查看</string>
+    <string name="title_activity_monitoring">安全相关权限</string>
+    <string name="title_activity_network">隐私权限</string>
+    <string name="title_activity_netcontrol">Netcontrol</string>
+    <string name="title_activity_ram_manager">RamManager</string>
+    <string name="title_activity_electric">电量监控</string>
+    <string name="title_activity_spite_app">SpiteApp</string>
+    <string name="title_activity_unload_app">软件卸载</string>
+    <string name="title_activity_complaint">Complaint</string>
+    <string name="title_enabled">DroidWall v%s</string>
+    <string name="title_disabled">DroidWall v%s (Firewall disabled)</string>
+    <string name="showrules">Show rules</string>
+    <string name="applyrules">Apply rules</string>
+    <string name="saverules">Save rules</string>
+    <string name="purgerules">Purge rules</string>
+    <string name="setpwd">Set password</string>
+    <string name="help">Help</string>
+    <string name="close">Close</string>
+    <string name="exit">Exit</string>
+    <string name="fw_enabled">Firewall enabled</string>
+    <string name="fw_disabled">Firewall disabled</string>
+    <string name="log_enabled">Log enabled</string>
+    <string name="log_disabled">Log disabled</string>
+    <string name="log_was_enabled">Log has been enabled</string>
+    <string name="log_was_disabled">Log has been disabled</string>
+    <string name="log_cleared">Log cleared</string>
+    <string name="show_log">Show log</string>
+    <string name="clear_log">Clear log</string>
+    <string name="applying_rules">Applying iptables rules.</string>
+    <string name="saving_rules">Saving iptables rules.</string>
+    <string name="deleting_rules">Deleting iptables rules.</string>
+    <string name="rules_applied">Rules applied with success</string>
+    <string name="rules_saved">Rules saved with success</string>
+    <string name="rules_deleted">Rules deleted with success</string>
+    <string name="pass_titleset">Set password lock</string>
+    <string name="pass_titleget">Password required</string>
+    <string name="enterpass">Enter the password:</string>
+    <string name="enternewpass">Enter the new password (leave blank to remove):</string>
+    <string name="passdefined">Password lock defined</string>
+    <string name="passremoved">Password lock removed</string>
+    <string name="passerror">Error changing password lock</string>
+    <string name="working">Working...</string>
+    <string name="reading_apps">Reading installed applications</string>
+    <string name="please_wait">Please wait</string>
+    <string name="mode_header">Mode: %s</string>
+    <string name="mode_whitelist">White list (allow selected)</string>
+    <string name="mode_blacklist">Black list (block selected)</string>
+    <string name="toast_bin_installed">DroidWall: Binary files installed!</string>
+    <string name="toast_enabled">DroidWall: Firewall enabled!</string>
+    <string name="toast_error_enabling">DroidWall: Error enabling firewall!</string>
+    <string name="toast_disabled">DroidWall: Firewall disabled!</string>
+    <string name="toast_error_disabling">DroidWall: Error disabling firewall!</string>
+    <string name="help_dialog_text">remove the password protection, just reset it to blank.</string>
+    <string name="title_activity_app_list">AppList</string>
+    <string name="menu_settings">Settings</string>
+    <string name="refresh_normal">normal</string>
+    <string name="refresh_cpu">cpu</string>
+    <string name="power_screen">显示屏</string>
+    <string name="power_wifi">Wi-Fi</string>
+    <string name="power_bluetooth">蓝牙</string>
+    <string name="power_cell">手机信号</string>
+    <string name="power_phone">语音通话</string>
+    <string name="power_idle">手机待机</string>
+    <string name="process_kernel_label">Android OS</string>
+    <string name="process_mediaserver_label">媒体服务器</string>
+    <string name="battery_history_days"><xliff:g id="DAYS">%1$d</xliff:g> 天 <xliff:g id="HOURS">%2$d</xliff:g> 小时 <xliff:g id="MINUTES">%3$d</xliff:g> 分 <xliff:g id="SECONDS">%4$d</xliff:g> 秒</string>
+    <string name="battery_history_hours"><xliff:g id="HOURS">%1$d</xliff:g> 小时 <xliff:g id="MINUTES">%2$d</xliff:g> 分 <xliff:g id="SECONDS">%3$d</xliff:g> 秒</string>
+    <string name="battery_history_minutes"><xliff:g id="MINUTES">%1$d</xliff:g> 分 <xliff:g id="SECONDS">%2$d</xliff:g> 秒</string>
+    <string name="battery_history_seconds"><xliff:g id="SECONDS">%1$d</xliff:g> 秒</string>
+    <string name="battery_info_status_charging_ac">（交流电）</string>
+    <string name="battery_info_status_charging_usb">(USB)</string>
+    <string name="battery_info_status_discharging">正在耗电</string>
+    <string name="battery_info_status_not_charging">未在充电</string>
+    <string name="battery_info_status_full">电量充足</string>
+    <string name="battery_info_status_unknown">未知</string>
+    <string name="battery_info_status_charging">正在充电</string>
+    <string name="power_usage_level_and_status"><xliff:g id="LEVEL">%1$s</xliff:g> - <xliff:g id="STATUS">%2$s</xliff:g></string>
+    <string name="title_activity_per_list">PerList</string>
+    <string name="search_main_str">恶意软件分析</string>
+    <string name="manage_main_str">用户软件管理</string>
+    <string name="traffic">用户软件管理</string>
+    <string name="permission_adminer">该应用涉及重要隐私权限</string>
+    <string name="permission_adminer_list">应用名称：</string>
+    <string name="permission_list">权限内容：</string>
+  
+
+</resources>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Premission"
+    android:background="@drawable/backgroundapp" >
+
+    <Button
+        android:id="@+id/pretell"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/premsg"
+        android:layout_below="@+id/premsg"
+        android:text="通讯录" />
+
+    <Button
+        android:id="@+id/prelocal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pretell"
+        android:layout_below="@+id/pretell"
+        android:text="位置" />
+
+    <Button
+        android:id="@+id/preime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/prelocal"
+        android:layout_below="@+id/prelocal"
+        android:text="手机识别码" />
+
+    <Button
+        android:id="@+id/precam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/preime"
+        android:layout_below="@+id/preime"
+        android:text="拍照和录像" />
+
+    <Button
+        android:id="@+id/premp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/presys"
+        android:layout_below="@+id/presys"
+        android:text="录音" />
+
+    <Button
+        android:id="@+id/presys"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/precam"
+        android:layout_below="@+id/precam"
+        android:text="系统设置" />
+
+    <Button
+        android:id="@+id/precai"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/premp"
+        android:layout_below="@+id/premp"
+        android:text="存储" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/premsg"
+        android:layout_alignParentTop="true"
+        android:text="应用程序将会访问您的以下隐私信息，影响手机安全"
+        android:textColor="#FF0000"
+        android:textSize="18dip" />
+
+    <Button
+        android:id="@+id/premsg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:text="短信记录" />
+
+</RelativeLayout>
